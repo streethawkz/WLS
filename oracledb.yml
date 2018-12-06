@@ -5,5 +5,5 @@ database:
  environment:
  ORACLE_PASSWORD: "Welcome1"
  ports:
- - "15211:1521"
- - "55001:5500"
+ - "1521"
+ - "5500"
