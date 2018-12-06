@@ -1,0 +1,9 @@
+database:
+ container_name: oracledb
+ image: oracle/database:11.2.0.2-xe
+ shm_size: 1G
+ environment:
+ ORACLE_PASSWORD: "Welcome1"
+ ports:
+ - "15211:1521"
+ - "55001:5500"
